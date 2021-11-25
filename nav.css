@@ -1,0 +1,49 @@
+/* 
+antiquewhite
+cadetblue
+black
+green
+crimson */
+
+nav.navigation{
+  background-color: black;
+  padding: 2px;
+  margin-bottom: 8px;
+}
+
+nav.navigation>ul{
+  list-style: none;
+}
+
+nav ul li{
+  margin-right: 5px;
+  display: inline-block;
+  background-color:cadetblue;
+  padding: 10px 3px;
+  border-radius: 5px;
+  
+}
+
+nav ul li:hover{
+  background-color:crimson;
+}
+
+nav ul li a{
+  color: green;
+  text-decoration: none;
+}
+
+main{
+  padding: 20px;
+  border-radius: 10px;
+  background-color: antiquewhite;
+}
+
+
+h2{
+  color: green;
+}
+
+p{
+  margin-bottom: 60px;
+}

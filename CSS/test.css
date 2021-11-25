@@ -1,0 +1,22 @@
+selector{
+  css-property: value;
+  css-property: value;
+  css-property: value;
+}
+
+.boy{
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #458922;
+  background-color: red;
+  padding: 30px;
+}
+
+.girl{
+  text-transform: uppercase;
+  font-size: 60px;
+  color: #458922;
+  background-color:aqua;
+  padding: 30px;
+}
+

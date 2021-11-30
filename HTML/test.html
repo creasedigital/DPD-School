@@ -1,14 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../CSS/test.css">
-  <title>Test Page</title>
-</head>
-<body>
-  <div class="boy">I am a good boy.</div>
-  <div class="girl">I am a good girl</div>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="./style2.css" /> -->
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+
+    <style>
+      li a {
+        color: green;
+      }
+      p {
+        color: rgb(54, 32, 3);
+      }
+    </style>
+  </head>
+  <body>
+    <header style="background-color: burlywood">
+      <nav>
+        <ul style="border-color: black">
+          <li><a href="nav.html">HOME</a></li>
+          <li
+            style="
+              background-image: url('data:image/png;base64,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');
+              background-size: cover;
+            "
+          >
+            <a href="about.html">ABOUT US</a>
+          </li>
+          <li><a href="">CONTACT</a></li>
+          <li><a href="">FAQ</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div style="border-radius: 10px" class="content">
+      <div style="margin-right: auto; margin-left: auto">
+        <h1 class="lorem first Aclass">What is Lorem Ipsum?</h1>
+        <p>
+          <i class="fas fa-apple-alt"></i>
+          <i class="material-icons">cloud</i>
+          <i class="material-icons">favorite</i>
+          <span>Lorem Ipsum is sidummmply y</span> text of the printing and
+          typesetting industry. Lorem Ipsum has been the industry's standard
+          dummy text ever since the 1500s, when an unknown printer took a galley
+          of type and scrambled it to make a type specimen book. It has survived
+          not only five centuries, but also the leap into electronic
+          typesetting, remaining essentially unchanged. It was popularised in
+          the 1960s with the release of Letraset sheets containing Lorem Ipsum
+          passages, and more recently with desktop publishing software like
+          Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <div style="margin-right: auto; margin-left: auto">
+        <i class="fas fa-apple-alt"></i>
+        <h1 class="lorem second Aclass">What is Lorem Ipsum?</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.
+        </p>
+      </div>
+      <div style="margin-right: auto; margin-left: auto">
+        <h1 class="lorem third Bclass">What is Lorem Ipsum?</h1>
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with
+          the release of Letraset sheets containing Lorem Ipsum passages, and
+          more recently with desktop publishing software like Aldus PageMaker
+          including versions of Lorem Ipsum.<br />
+        </p>
+        <span
+          class="material-icons"
+          style="width: 15px; height: 15px; float: left; cursor: pointer"
+        >
+          backspace
+        </span>
+      </div>
+    </div>
+    <footer id="footer1">
+      <div
+        style="
+          display: flex;
+          justify-content: center;
+          width: 90%;
+          margin-top: 40px;
+        "
+      >
+        <div style="display: flex" class="footer_item" id="first_footer_item">
+          Copyright from
+        </div>
+        <div style="display: block" class="footer_item">
+          <h5>lessons on css</h5>
+          <ul class="footer-list">
+            <li>html</li>
+            <li>css</li>
+            <li>python</li>
+            <li>javascript</li>
+          </ul>
+        </div>
+        <div style="display: block" class="footer_item">
+          <h6 style="display: block">List of courses</h6>
+          <ol class="footer-list">
+            <li><a href="#">html</a></li>
+            <li><a href="#">css</a></li>
+            <li><a href="#">python</a></li>
+            <li><a href="#">javascript</a></li>
+          </ol>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/a076d05399.js"
+    crossorigin="anonymous"
+  ></script>
 </html>

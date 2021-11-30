@@ -1,0 +1,72 @@
+body {
+  background-color: antiquewhite;
+  padding: 15px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  background-color: black;
+  flex-direction: row;
+  /* border-radius: 3%; */
+  border: solid;
+  justify-content: start;
+}
+li:hover {
+  background-color: darkslategrey;
+}
+
+li {
+  color: white;
+  display: flex;
+  padding: 20px;
+  margin: 30px;
+  background-color: crimson;
+  /* margin: 10px; */
+  border-radius: 10px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  background-color: burlywood;
+}
+
+h1 {
+  color: white;
+}
+div {
+  border-radius: 10px;
+  background-size: cover;
+  /* background-color: chartreuse; */
+  background-image: url("https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F5d35eacaf1176b0008974b54%2F0x0.jpg%3FcropX1%3D790%26cropX2%3D5350%26cropY1%3D784%26cropY2%3D3349");
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 80%;
+  background-attachment: scroll;
+  height: auto;
+  border: groove 5px lightgrey;
+  border-color: lightgrey;
+  border-top-style: none;
+  border-bottom-style: none;
+}
+
+.image-2 {
+  border-radius: 10px;
+  background-size: cover;
+  /* background-color: chartreuse; */
+  background-image: url("../img/greenpeg-academy.png");
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 90%;
+  background-attachment: scroll;
+  height: 300px;
+  border: groove 5px lightgrey;
+  border-color: lightgrey;
+  border-top-style: none;
+  border-bottom-style: none;
+  margin: 50px auto;
+}

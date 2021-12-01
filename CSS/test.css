@@ -51,6 +51,43 @@ header {
 h1 {
   color: green;
 }
+
+.scroll{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  /* display: inline-block; */
+  max-width: 60% !important;
+  float: right !important;
+}
+
+.hidden {
+  /* visibility: hidden; */
+  display: none;
+  max-width: 60% !important;
+  float: left;
+  
+}
+
+.centered{
+  max-width: 60% !important;
+  margin: auto !important;
+}
+
+.content img{
+  width: 15%;
+}
+
+/* .content div:nth-child(1){
+}
+
+.content div:nth-child(2){
+  
+}
+
+.content div:nth-child(3){
+} */
+
 .content {
   border-radius: 10px;
   width: 90%;
@@ -143,7 +180,41 @@ span {
   color: chocolate;
 } */
 
+.table-container{
+  background-color: #EFEEED;
+  margin: 0 auto;
+  margin-top: 40px;
+  width: 800px;
+  padding: 40px;
+  font-size: 12px;
+}
 
+.table{
+  background-color: #FEFEFE;
+  width: 100%;
+  /* vertical-align: middle; */
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+th{
+  background-color: #FEFC57;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  text-align: left;
+  
+}
+
+tr td:first-child{
+
+  background-color: #FEFC57;
+  
+}
+
+td{
+  padding: 10px;
+  border: 1px solid #cccccc;
+}
 
 #footer1 .footer_item h5{
   font-size: 20px;

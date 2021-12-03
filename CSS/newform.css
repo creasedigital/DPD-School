@@ -1,0 +1,63 @@
+
+
+body{
+  position: relative;
+  height: 100vh;
+}
+
+.form{
+  background-color: #f6f6f6;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 25%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, .4);
+}
+
+.form-container{
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+
+}
+
+.form__title{
+  color: #afafaf;
+  padding-top: 10px;
+  margin: 0px;
+}
+
+.form__group{
+  margin: 10px;
+}
+
+.form__forgot-pswd{
+  color: #afafaf;
+  margin: 20px;
+  text-align: center;
+}
+
+
+.form__group>input{
+  background-color: #f6f6f6;
+  border: none;
+  padding: 15px;
+  border-radius:5px;
+}
+
+
+input[type="submit"]{
+  background-color: #58B7EA;
+  color: #fff;
+  border: none;
+  border-radius:5px;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+
+}
+
+input::placeholder{
+  text-align: center;
+}

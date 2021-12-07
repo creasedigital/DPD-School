@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      min-height: 100vh;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+        }
+    .container{
+  
+    }
+    .border-img{
+      border-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freeiconspng.com%2Fimages%2Fdiamond-png&psig=AOvVaw2grdnZddUM0EjqV7fU-tgm&ust=1638930632230000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNChh8XS0PQCFQAAAAAdAAAAABAI') 30% round;
+      border-image-slice: 30%;
+      display: flex; 
+      flex-basis: calc(50% - 40px);  
+      justify-content: center;
+      /* flex-direction: column; */
+    }
+    .img-1{
+      background-color:deeppink;      
+    }
+    .img-2{
+      background-color: coral;
+    }
+    .img-3{
+      background-color: crimson;
+    }
+    .img-4{
+      background-color: darkgreen;
+    }
+    div>div{
+      width: 50%;
+      height: 200px;
+      margin: 2rem;
+      text-align: center;
+      padding: 5rem;
+      border: 1rem dotted rgb(38, 38, 38);
+    }
+  </style>
+  <title>Border</title>
+</head>
+<body>
+  <div class="container">
+    <div class="border-img img-1">I am the number 1 box</div>
+    <div class="border-img img-2">I am the number 2 box</div>
+    <div class="border-img img-3">I am the number 3 box</div>
+    <div class="border-img img-4">I am the number 4 box</div>
+  </body>
+  </div>
+</html>

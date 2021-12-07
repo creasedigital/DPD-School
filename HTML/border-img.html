@@ -16,32 +16,42 @@
       flex-direction: row;
         }
     .container{
-  
+      width: 50%;
     }
     .border-img{
-      border-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freeiconspng.com%2Fimages%2Fdiamond-png&psig=AOvVaw2grdnZddUM0EjqV7fU-tgm&ust=1638930632230000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNChh8XS0PQCFQAAAAAdAAAAABAI') 30% round;
-      border-image-slice: 30%;
+      border-image: url('https://pics.clipartpng.com/Diamond_PNG_Clipart_Image-790.png') 30% round;
+      /* border-image-slice: 30%;*/
+      border-image-repeat: repeat;
+      border-image-outset: 20px;
       display: flex; 
-      flex-basis: calc(50% - 40px);  
+      /* flex-basis: calc(50% - 40px);   */
       justify-content: center;
       /* flex-direction: column; */
     }
     .img-1{
-      background-color:deeppink;      
+      background-color:deeppink;    
+      border-bottom-left-radius: 80px;  
     }
     .img-2{
       background-color: coral;
+      border-bottom-left-radius: 50px 20px;
     }
     .img-3{
       background-color: crimson;
+      border-top-left-radius: 50px;
+      border-top-right-radius: 150px 120px;
     }
     .img-4{
       background-color: darkgreen;
+      border-top-left-radius: 50px;
+      border-bottom-right-radius: 150px 120px;
     }
+    
     div>div{
       width: 50%;
+      /* display: inline-block; */
       height: 200px;
-      margin: 2rem;
+      margin: 4rem;
       text-align: center;
       padding: 5rem;
       border: 1rem dotted rgb(38, 38, 38);

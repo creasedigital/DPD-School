@@ -54,6 +54,16 @@
     .column img {
       margin-top: 8px;
       vertical-align: middle;
+      transition: all 0.6s cubic-bezier(0.075, 0.82, 0.165, 1);
+      position: relative;
+    }
+    
+    .column img:hover {
+      margin-top: 6px;
+      transform: scale(1.2);
+      z-index: 10;
+      outline: 4px solid #fff;
+      outline-offset: 8px;
     }
     
     @media (max-width: 800px) {

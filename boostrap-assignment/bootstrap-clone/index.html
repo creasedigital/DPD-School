@@ -3,10 +3,305 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0 shrink-to-fit=no">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  <link rel="stylesheet" href="style.css">
   <title>Bootstrap Template Clone</title>
 </head>
 <body>
-  
+  <!-- Header background image : https://bootstrapmade.com/theme/img/sale-bg.jpg -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid w-100">
+      <div class="d-flex justify-content-between">
+        <div>
+          <a class="navbar-brand" href="#"><img src="./img/logo (1).png" alt="logo" ></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Templates
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex flex-nowrap ">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-search input-group-text" id="addon-wrapping" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header Section -->
+  <header>
+    <div class="container-fluid w-100" style="background-image: url(https://bootstrapmade.com/theme/img/sale-bg.jpg); height: 200px">
+
+    </div>
+  </header>
+  <main>
+    <section class="container">
+      <div>
+        <h3 class="mt-4 mb-3 text-dark">Bootstrap Portfolio Templates</h3>
+        <div class="mb-4 d-flex rule-container justify-content-between">
+          <span class="bottom-rule b-rule-1"></span>
+          <span class="bottom-rule b-rule-2"></span>
+        </div>
+        
+        <p>Free portfolio bootstrap themes and website templates. If you are looking for an easy way to represent your portfolio to the world these themes will help you to do it. Website templates for creative agency, design and photography.</p>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col-md-6 col-lg-4 my-4">
+          <div class="card" style="border: none; box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -moz-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);">
+            <img src="./img/brandon-johnson.png" class="card-img-top" alt="Avatar">
+            <div class="card-body">
+              <div class="card-h d-flex justify-content-between">
+                <h5 class="text-primary">MyResume</h5>
+                <p class="font-italic"><small>94,791 Downloads</small></p>
+              </div>
+              <div class="card-paragraph">
+                <p>MyResume is a creative resume and portfolio Bootstrap template. It's best suited for digital professionals, designers, programmers, photographers, freelancers any other who wants to...</p>
+
+              </div>
+              <div class="card-button d-flex justify-content-center" >
+                <!-- #00AD55 -->
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-display"  style="color: #ffffff;"></i>&nbsp; Demo</button>
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-download"  style="color: #ffffff;"></i>&nbsp; Download</button>
+                <button class="btn" style="background-color: #00AD55; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-cart"  style="color: #ffffff;"></i>&nbsp; Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+          <div class="card" style="border: none; box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -moz-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);">
+            <img src="./img/kelly-adam.png" class="card-img-top" alt="Avatar">
+            <div class="card-body">
+              <div class="card-h d-flex justify-content-between">
+                <h5 class="text-primary">Kelly</h5>
+                <p class="font-italic"><small>39,992 Downloads</small></p>
+              </div>
+              <div class="card-paragraph">
+                <p>Kelly is a professional, clean, flexible and customizable portfolio, resume and CV bootstrap template. It's ideal for everyone to showcase their online works. It's pretty savvy, minimal ...</p>
+
+              </div>
+              <div class="card-button d-flex justify-content-center" >
+                <!-- #00AD55 -->
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-display"  style="color: #ffffff;"></i>&nbsp; Demo</button>
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-download"  style="color: #ffffff;"></i>&nbsp; Download</button>
+                <button class="btn" style="background-color: #00AD55; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-cart"  style="color: #ffffff;"></i>&nbsp; Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+          <div class="card" style="border: none; box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -moz-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);">
+            <img src="./img/laura-thomson.png" class="card-img-top" alt="Avatar">
+            <div class="card-body">
+              <div class="card-h d-flex justify-content-between">
+                <h5 class="text-primary">Laura</h5>
+                <p class="font-italic"><small>51,617 Downloads</small></p>
+              </div>
+              <div class="card-paragraph">
+                <p>Laura is a clean and responsive free portfolio website template. Laura is mobile friendly, clean code, modern layout and ready for easy customization. You can use this template for ...</p>
+
+              </div>
+              <div class="card-button d-flex justify-content-center" >
+                <!-- #00AD55 -->
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-display"  style="color: #ffffff;"></i>&nbsp; Demo</button>
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-download"  style="color: #ffffff;"></i>&nbsp; Download</button>
+                <button class="btn" style="background-color: #00AD55; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-cart"  style="color: #ffffff;"></i>&nbsp; Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+          <div class="card" style="border: none; box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -moz-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);">
+            <img src="./img/emily-jones-Personal-bootstrap-website-template-md.png" class="card-img-top" alt="Avatar">
+            <div class="card-body">
+              <div class="card-h d-flex justify-content-between">
+                <h5 class="text-primary">Personal</h5>
+                <p class="font-italic"><small>55,813 Downloads</small></p>
+              </div>
+              <div class="card-paragraph">
+                <p>Personal is clean, minimal and professional looking portfolio, resume and CV template. It's modern and one page design. This template is suitable for anyone who wants to have a personalized ...</p>
+
+              </div>
+              <div class="card-button d-flex justify-content-center" >
+                <!-- #00AD55 -->
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-display"  style="color: #ffffff;"></i>&nbsp; Demo</button>
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-download"  style="color: #ffffff;"></i>&nbsp; Download</button>
+                <button class="btn" style="background-color: #00AD55; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-cart"  style="color: #ffffff;"></i>&nbsp; Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+          <div class="card" style="border: none; box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -moz-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);">
+            <img src="./img/Alex-Smith-iPortfolio-bootstrap-website-template-md.png" class="card-img-top" alt="Avatar">
+            <div class="card-body">
+              <div class="card-h d-flex justify-content-between">
+                <h5 class="text-primary">iPortfolio</h5>
+                <p class="font-italic"><small>108,652 Downloads</small></p>
+              </div>
+              <div class="card-paragraph">
+                <p>iPortfolio is a modern personal CV and portfolio HTML template. It’s creative, minimal and clean design. iPortfolio can be used for many purposes starting from minimal portfolios, ...</p>
+
+              </div>
+              <div class="card-button d-flex justify-content-center" >
+                <!-- #00AD55 -->
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-display"  style="color: #ffffff;"></i>&nbsp; Demo</button>
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-download"  style="color: #ffffff;"></i>&nbsp; Download</button>
+                <button class="btn" style="background-color: #00AD55; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-cart"  style="color: #ffffff;"></i>&nbsp; Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+          <div class="card" style="border: none; box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -moz-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);">
+            <img src="./img/Johan-Stanworth-MyPortfolio-bootstrap-website-template-md.png" class="card-img-top" alt="Avatar">
+            <div class="card-body">
+              <div class="card-h d-flex justify-content-between">
+                <h5 class="text-primary">MyPortfolio</h5>
+                <p class="font-italic"><small>22,353 Downloads</small></p>
+              </div>
+              <div class="card-paragraph">
+                <p>MyPortfolio is a clean and lightweight portfolio website template. With a minimal design MyPortfolio is perfect to create beautiful online portfolios. MyPortfolio is a simple but high-quality ...</p>
+
+              </div>
+              <div class="card-button d-flex justify-content-center" >
+                <!-- #00AD55 -->
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-display"  style="color: #ffffff;"></i>&nbsp; Demo</button>
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-download"  style="color: #ffffff;"></i>&nbsp; Download</button>
+                <button class="btn" style="background-color: #00AD55; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-cart"  style="color: #ffffff;"></i>&nbsp; Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+          <div class="card" style="border: none; box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -moz-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);">
+            <img src="./img/morgan-freeman-DevFolio-bootstrap-website-template-md.png" class="card-img-top" alt="Avatar">
+            <div class="card-body">
+              <div class="card-h d-flex justify-content-between">
+                <h5 class="text-primary">DevFolio</h5>
+                <p class="font-italic"><small>75,176 Downloads</small></p>
+              </div>
+              <div class="card-paragraph">
+                <p>DevFolio is a free portfolio website html template created with the Bootstrap framework. Whether you are a creative individual, developer or artist DevFolio will serve you well. Create ...</p>
+
+              </div>
+              <div class="card-button d-flex justify-content-center" >
+                <!-- #00AD55 -->
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-display"  style="color: #ffffff;"></i>&nbsp; Demo</button>
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-download"  style="color: #ffffff;"></i>&nbsp; Download</button>
+                <button class="btn" style="background-color: #00AD55; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-cart"  style="color: #ffffff;"></i>&nbsp; Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+          <div class="card" style="border: none; box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -moz-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);">
+            <img src="./img/alex-smith-Folio-bootstrap-website-template-md.png" class="card-img-top" alt="Avatar">
+            <div class="card-body">
+              <div class="card-h d-flex justify-content-between">
+                <h5 class="text-primary">Folio</h5>
+                <p class="font-italic"><small>56,479 Downloads</small></p>
+              </div>
+              <div class="card-paragraph">
+                <p>Folio is a simple, elegant and creative website template for showcase your portfolio or personal information. Folio is responsive website template created with Bootstrap 4. Clean source ...</p>
+
+              </div>
+              <div class="card-button d-flex justify-content-center" >
+                <!-- #00AD55 -->
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-display"  style="color: #ffffff;"></i>&nbsp; Demo</button>
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-download"  style="color: #ffffff;"></i>&nbsp; Download</button>
+                <button class="btn" style="background-color: #00AD55; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-cart"  style="color: #ffffff;"></i>&nbsp; Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 my-4">
+          <div class="card" style="border: none; box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -webkit-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);
+          -moz-box-shadow: 2px -1px 35px -24px rgba(0,0,0,0.82);">
+            <img src="./img/alice-Lonely-bootstrap-website-template-md.png" class="card-img-top" alt="Avatar">
+            <div class="card-body">
+              <div class="card-h d-flex justify-content-between">
+                <h5 class="text-primary">Lonely</h5>
+                <p class="font-italic"><small>45,492 Downloads</small></p>
+              </div>
+              <div class="card-paragraph">
+                <p>Lonely a light and elegant personal portfolio and resume website template. Lonely is designed for showcasing short biography or something like simple personal site. It will help you ...</p>
+
+              </div>
+              <div class="card-button d-flex justify-content-center" >
+                <!-- #00AD55 -->
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-display"  style="color: #ffffff;"></i>&nbsp; Demo</button>
+                <button class="btn mr-2 inline-block" style="background-color: #00427c; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-download"  style="color: #ffffff;"></i>&nbsp; Download</button>
+                <button class="btn" style="background-color: #00AD55; color: #ffffff; padding: 2px 8px" type="button"><i class="bi bi-cart"  style="color: #ffffff;"></i>&nbsp; Buy</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-4 text-center container-fluid mailing-list">
+      <div class="mx-auto pb-4" style="width: 540px">
+        <h3 class="d-flex flex-column justify-content-evenly my-4 newsletter">Join our Newsletter</h3>
+        <p class="">Subscribe to our newsletter to receive emails about new template releases and updates</p>
+        <input class="mail" type="email"placeholder="Enter your email address" style="border: none; width: 100%; padding: 0.8rem 3rem ; background-color: #ffffff; box-shadow: 2px -1px 35px -20px rgba(0,0,0,0.98);
+        -webkit-box-shadow: 2px -1px 35px -20px rgba(0,0,0,0.98);
+        -moz-box-shadow: 2px -1px 35px -20px rgba(0,0,0,0.98);" >
+      </div>
+      <button class="btn btn-primary rounded-0" type="submit" style="border-top-right-radius: 5px!important; border-bottom-right-radius: 5px!important; padding: 0.5rem 2rem">Subscribe</button>
+    </section>
+  </main>
+  <footer>
+    <div class="container">
+
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
 </body>
 </html>

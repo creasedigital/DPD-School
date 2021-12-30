@@ -29,10 +29,14 @@ i:before {
 
 }
 
-.mailing-list{
+.mailing-list, .footer-copyright{
   background-color: #f4faff;
 }
 
 .newsletter{
   color: #00427c;
+}
+
+.mail:focus{
+  outline: 2px solid #000000;
 }

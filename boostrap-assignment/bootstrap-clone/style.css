@@ -40,3 +40,26 @@ i:before {
 .mail:focus{
   outline: 2px solid #000000;
 }
+
+popular-links ul{
+  margin: 0 !important;
+}
+
+.popular-links ul li{
+  display: inline-block !important;
+  line-height: 25px;
+  /* margin: 0 !important; */
+}
+
+.popular-links ul li a{
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+  color: #13181a;
+}
+
+.popular-links ul li a .vector{
+  vertical-align: middle;
+  margin-top: -5px !important;
+  color: #064963 !important;
+  /* font-size: 20px; */
+}

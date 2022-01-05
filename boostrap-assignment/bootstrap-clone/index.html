@@ -19,35 +19,37 @@
     <div class="container-fluid w-100">
       <div class="d-flex justify-content-between">
         <div>
-          <a class="navbar-brand" href="#"><img src="./img/logo (1).png" alt="logo" >BOOTSTRAP<span class="blue">MADE</span></a>
+          <a class="navbar-brand" href="#"><img class="footer-brand" src="./img/logo (1).png" alt="logo" ><span class="footer-brand-text sky-text"><span class="blue">BOOTSTRAP</span>MADE</span></a>
         </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarScroll">
-          <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-            <li class="nav-item">
-              <a class="nav-link " aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Templates
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex flex-nowrap ">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-search input-group-text" id="addon-wrapping" viewBox="0 0 16 16">
-              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
-            </svg>
-            <!-- <button class="btn btn-outline-success" type="submit">Search</button> -->
-          </form>
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link " aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Templates
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+        <div>
+          <input class="mail" type="email"placeholder="Enter your email address" style="border: none; width: 100%; padding: 0.8rem 3rem ; background-color: #ffffff; box-shadow: 2px -1px 35px -20px rgba(0,0,0,0.98);
+        -webkit-box-shadow: 2px -1px 35px -20px rgba(0,0,0,0.98);
+        -moz-box-shadow: 2px -1px 35px -20px rgba(0,0,0,0.98);" >
+        </div>
         </div>
       </div>
     </div>
@@ -55,8 +57,12 @@
 
   <!-- Header Section -->
   <header>
-    <div class="container-fluid w-100" style="background-image: url(https://bootstrapmade.com/theme/img/sale-bg.jpg); height: 200px">
+    <div class="container-fluid w-100" style="background-image: url(https://bootstrapmade.com/theme/img/sale-bg.jpg); height: 200px; background-position: top;">
+      <div class="text-center d-flex justify-content-center align-items-center h-100 flex-column">
+      <h2 class="minify mb-2"><span class="shade">Happy New Year!</span> Don't miss our sale!</h2>
+      <button class="btn btn-danger rounded" type="submit" style="border-top-right-radius: 5px!important; border-bottom-right-radius: 5px!important; padding: 0.5rem 2rem">Check Out Now</button>
 
+      </div>
     </div>
   </header>
   <main>
@@ -296,31 +302,99 @@
       <div class="row">
         <div class="col-xl-5">
           <div class="bootstrap-made">
-            <a class="navbar-brand" href="#"><img src="./img/logo (1).png" alt="logo" >BOOTSTRAP<span class="blue">MADE</span></a>
-            <p>High quality free Bootstrap website templates. Build your next website with our modern and fully responsive web templates!</p>
-            <div class="footer-icons">
-
+            <a class="navbar-brand" href="#"><img class="footer-brand" src="./img/logo (1).png" alt="logo" ><span class="footer-brand-text"><span class="blue">BOOTSTRAP</span>MADE</span></a>
+            <p><small>High quality free Bootstrap website templates. Build your next website with our modern and fully responsive web templates!</small></p>
+            <div class="footer-icons d-flex">
+              <div class="footer-icon-container relative mr-5"><svg xmlns="http://www.w3.org/2000/svg" width="16 " height="16" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg></div>
+              <div class="footer-icon-container relative mr-5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg></div>
+              <div class="footer-icon-container relative mr-5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rss" viewBox="0 0 16 16">
+                <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                <path d="M5.5 12a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm-3-8.5a1 1 0 0 1 1-1c5.523 0 10 4.477 10 10a1 1 0 1 1-2 0 8 8 0 0 0-8-8 1 1 0 0 1-1-1zm0 4a1 1 0 0 1 1-1 6 6 0 0 1 6 6 1 1 0 1 1-2 0 4 4 0 0 0-4-4 1 1 0 0 1-1-1z"/>
+              </svg></div>
+              <div class="footer-icon-container relative mr-5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+              </svg></div>
             </div>
           </div>
         </div>
-        <div class="col-xl-7">
-          <div class="popular-links">
-            <h6 class="font-bold company">
-              Company
-            </h6>
-            <ul class="list-unstyled m-0 p-0">
-              <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-              </svg>About</a></li>
-            </ul>
-            <div class="templates"></div>
-            <div class="categories"></div>
+        <div class=" col-xl-7">
+          <div class=" row d-flex justify-content-between popular-links">
+            <div class="company mr-5 mb-5">
+              <h6 class="font-bold">
+                Company
+              </h6>
+              <ul class="footer-link-list d-flex flex-column list-unstyled m-0 p-0">
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>About</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>License</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>PHP Email Form</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>Terms of service</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>Privacy policy</a></li>
+              </ul>
+            </div>
+            <div class="templates mr-5 mb-5">
+              <h6 class="font-bold templates">
+                Popular Templates
+              </h6>
+              <ul class="footer-link-list d-flex flex-column list-unstyled m-0 p-0">
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>Arsha</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>OnePage</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>Mamba</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>Company</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>MyResume</a></li>
+              </ul>
+            </div>
+            <div class="categories mr-5 mb-5">
+              <h6 class="font-bold">
+                Popular Categories
+              </h6>
+              <ul class="footer-link-list d-flex flex-column list-unstyled m-0 p-0">
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>Bootstrap 5 Templates</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>Website Templates</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>One Page Template</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>Portfolio Templates</a></li>
+                <li class="m-0 p-0"><a href="#" class="text-decoration-none btn"><svg class="font-bold vector mr-2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#00b3fa" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>Free Website Templates</a></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
       
     </div>
-    <p class="footer-copyright py-4 text-center">
+    <p class="m-0 footer-copyright py-4 text-center">
       Copyright &copy; 2022 BootstrapMade
     </p>
   </footer>

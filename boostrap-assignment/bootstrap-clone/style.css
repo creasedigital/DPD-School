@@ -90,10 +90,35 @@ popular-links ul{
   color: #007bff;
 }
 
-.blue{
+.member{
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+}
+
+.blue, .menu-text a{
   color: #00427c;
   display: inline-block;
 }
+
+.list-unstyled a{
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.list-unstyled a:hover{
+  color:#4a9ce4;
+}
+
+.menu-text{
+  font-weight: 500;
+}
+
+.topnav{height: 80px}
+
+/* 
+.temp-link:hover + .temp-inner-link{
+  display: flex;
+} */
 
 .footer-brand-text{font-size: 24px; font-weight: bold;}
 
@@ -123,3 +148,15 @@ popular-links ul{
 }
 
 .footer-copyright{font-size: 14px;}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width:1260px){
+  .top-brand{
+    margin-right: 5rem;
+  }
+
+
+}

@@ -1,22 +1,17 @@
-// const threeArr = [1, 4, 6];
-// threeArr.push('John', 'Thomas', ['Batholomew', 'Batshuayi']);
-// console.log(threeArr);
-// console.log(threeArr.pop());
-// console.log(threeArr);
+let apple = 54;
 
-// Setup
-let sum = 0;
+let mango = 89;
 
-function addThree() {
-	sum = sum + 3;
+let cherry = 100;
+
+const totalQuantityApple = 1;
+const totalQuantityMango = 3;
+const totalQuantityCherry = 17;
+
+if (totalQuantityApple * apple > totalQuantityMango * mango) {
+	console.log('apple is our best fruit');
+} else if (totalQuantityApple * apple > totalQuantityCherry * cherry) {
+	console.log('cherry is our best fruit');
+} else {
+	console.log('mango is our best fruit');
 }
-
-// Only change code below this line
-
-function addFive() {
-	sum = sum + 5;
-}
-// Only change code above this line
-
-console.log(addThree());
-console.log(addFive());
